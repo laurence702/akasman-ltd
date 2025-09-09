@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import akasman_logo from "@/assets/akasman-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +16,7 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hello Akasman, I'd like to inquire about your business...");
+    const message = encodeURIComponent("Hello Akasonic, I'd like to inquire about your business...");
     window.open(`https://wa.me/2348033267152?text=${message}`, '_blank');
   };
 
@@ -26,14 +25,9 @@ const Header = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <img
-              src={akasman_logo}
-              alt="Akasman International Logo"
-              className="h-10 w-auto"
-            />
+          <Link to="/" className="flex items-center">
             <div>
-              <span className="text-xl font-bold text-primary">Akasman</span>
+              <span className="text-2xl font-bold text-primary">Akasonic</span>
               <span className="text-sm text-muted-foreground block leading-tight">Int'l</span>
             </div>
           </Link>

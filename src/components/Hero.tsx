@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-logistics.jpg";
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hello Akasman, I'd like to inquire about your business...");
+    const message = encodeURIComponent("Hello Akasonic, I'd like to inquire about your business...");
     window.open(`https://wa.me/2348033267152?text=${message}`, '_blank');
   };
 
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-4xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
-            Reliable Import Solutions with{" "}
+            <span className="text-accent-foreground">Akasonic</span> - Reliable Import Solutions with{" "}
             <span className="text-accent-foreground">Advanced Tracking</span>
           </h1>
           

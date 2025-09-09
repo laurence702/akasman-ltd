@@ -10,7 +10,7 @@ import medicalSuppliesImage from "@/assets/medical-supplies.jpg";
 
 const Home = () => {
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hello Akasman, I'd like to inquire about your business...");
+    const message = encodeURIComponent("Hello Akasonic, I'd like to inquire about your business...");
     window.open(`https://wa.me/2348033267152?text=${message}`, '_blank');
   };
 
@@ -71,7 +71,7 @@ const Home = () => {
               Your Trusted Global Trade Partner
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Akasman International specializes in importation, general merchandise supply, and business consultation. 
+              Akasonic International specializes in importation, general merchandise supply, and business consultation. 
               With our advanced tracking systems and AI-powered fraud detection, we ensure every transaction is secure, 
               transparent, and reliable.
             </p>
@@ -122,7 +122,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose Akasman International?
+              Why Choose Akasonic International?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Experience the difference with our innovative approach to global trade
@@ -171,7 +171,7 @@ const Home = () => {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Join hundreds of satisfied clients who trust Akasman International for their global trade needs.
+            Join hundreds of satisfied clients who trust Akasonic International for their global trade needs.
           </p>
           <Button 
             onClick={handleWhatsApp}
